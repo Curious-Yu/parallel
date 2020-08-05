@@ -16,11 +16,13 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative
 }
 
 .block {
   background-color: rgb(95, 67, 120);
   height: 100%;
+  position: relative
 }
 
 .title {
@@ -29,15 +31,26 @@ body, html {
   display: block;
   padding: 10px;
   margin: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .text {
   text-align: center;
   align-items: center;
   width: 70%;
-  padding: 1010;
+  padding: 2%;
   border: 5px solid gray;
-  display: block;
+
   margin: auto;
-  margin: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
