@@ -14,8 +14,9 @@ html, body {
 
 
 .block {
-  height: 50vh;
   width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   background-color: rgb(98, 78, 144);
 }
