@@ -9,8 +9,41 @@ html, body {
 
 /**html { height: 100%; } body { min-height: 100%; }**/
 
-body {
+/**body {
   color: #FFF;
   background-color: #FD940A;
   background-image: linear-gradient(bottom, red 0%, yellow 70%, black 100%);
+}**/
+
+.section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.static {
+  background: pink 0.5;
+}
+.bg1::after {
+  background-image: url('https://placekitten.com/g/900/700');
+}
+
+.bg2::after {
+  background-image: url('https://placekitten.com/g/800/600');
 }
