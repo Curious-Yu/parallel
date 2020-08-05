@@ -42,9 +42,9 @@
 }
 
 .bg1::after {
-  background-image: url('https://placekitten.com/g/900/700');
+  background-image: url('/img/bg/png');
 }
 
 .bg2::after {
-  background-image: url('https://placekitten.com/g/800/600');
+  background-image: url('/img/bg2.png');
 }
