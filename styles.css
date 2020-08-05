@@ -26,9 +26,9 @@ body, html {
 .title {
   text-align: center;
   align-items: center;
-  width: 70%;
+  display: block;
   padding: 10px;
-  margin: 0;
+  margin: auto;
 }
 
 .text {
