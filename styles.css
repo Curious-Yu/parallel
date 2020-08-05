@@ -46,8 +46,8 @@ body {
     url(http://stash.rachelnabors.com/24ways2012/background_mountain5.png),
     url(http://stash.rachelnabors.com/24ways2012/background_mountain4.png),
     url(http://stash.rachelnabors.com/24ways2012/background_mountain3.png),
-    url(http://stash.rachelnabors.com/24ways2012/background_mountain2.png),
-    url(http://stash.rachelnabors.com/24ways2012/background_mountain1.png);
+    <img src="/img/layer2.png">,
+    <img src="/img/layer1.png">;
   background-repeat: repeat-x;
   background-position: 0 100%;
   z-index: 1;
