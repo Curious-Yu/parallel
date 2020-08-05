@@ -1,2 +1,3 @@
-# parallel
-Trying for parallel site effect
+# Template for Parallax :sparkles:
+
+https://curious-yu.github.io/template-parallax/
