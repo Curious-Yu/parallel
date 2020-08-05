@@ -38,8 +38,9 @@ html, body {
 }
 
 .static {
-  background: pink 0.5;
+  background: rgb(117, 107, 142, 0.5);
 }
+
 .bg1::after {
   background-image: url('https://placekitten.com/g/900/700');
 }
