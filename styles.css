@@ -1,5 +1,4 @@
 .parallax {
-    background-image: url("/img/bg2.png");
     height: 100vh;
     width: 100vw;
     background-attachment: fixed;
@@ -13,4 +12,13 @@
   height:100vh;
   width: 100vw;
   text-align: center;
+  background-color: rgb(98, 78, 144);
+}
+
+.bg1 {
+  background-image: url("/img/bg1.png");
+}
+
+.bg2 {
+  background-image: url("/img/bg2.png");
 }
