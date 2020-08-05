@@ -32,7 +32,7 @@ body {
 
 .midground {
   animation: parallax_mg linear 20s infinite;
-  background:  url(http://stash.rachelnabors.com/24ways2012/midground_grass.png) 0 100% repeat-x;
+  background:  url(/img/grass-mid.png) 0 100% repeat-x;
   z-index: 2;
 }
 
