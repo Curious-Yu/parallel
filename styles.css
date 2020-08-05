@@ -21,7 +21,7 @@ body {
 
 .foreground {
   animation: parallax_fg linear 10s infinite both;
-  background:  url(/img/foreplayer.png) 0 100% repeat-x;
+  background:  url(/img/grass1.png) 0 100% repeat-x;
   z-index: 3;
 }
 
@@ -32,7 +32,7 @@ body {
 
 .midground {
   animation: parallax_mg linear 20s infinite;
-  background:  url(/img/grass-mid.png) 0 100% repeat-x;
+  background:  url(/img/grass2.png) 0 100% repeat-x;
   z-index: 2;
 }
 
