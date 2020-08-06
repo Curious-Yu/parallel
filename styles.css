@@ -16,13 +16,13 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative
+  position: relative;
 }
 
 .block {
   background-color: rgb(95, 67, 120);
   height: 100%;
-  position: relative
+  position: relative;
 }
 
 .title {
