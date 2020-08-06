@@ -4,38 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="dropdown.css">
     <title>Parallax</title>
   </head>
   <body>
 
-    <div class="parallax">
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="/#title">Title</a>
+        <a href="/#topic1">Topic 1</a>
+        <a href="/#topic2">Topic 2</a>
+        <a href="/#topic3">Topic 3</a>
+        <a href="/#topic4">Topic 4</a>
+      </div>
+    </div>
+
+    <div class="parallax" id="title">
       <div class="title">
         <h1>Site Title</h1>
       </div>
     </div>
 
-    <div class="block">
+    <div class="block" id="topic1">
       <div class="text">
         <h1>Topic 1</h1>
         <p>Body paragraph of topic 1</p>
       </div>
     </div>
 
-    <div class="parallax">
+    <div class="parallax" id="topic2">
       <div class="text">
         <h1>Topic 2</h1>
         <p>Body paragraph of topic 2</p>
       </div>
     </div>
 
-    <div class="block">
+    <div class="block" id="topic3">
       <div class="text">
         <h1>Topic 3</h1>
         <p>Body paragraph of topic 3</p>
       </div>
     </div>
 
-    <div class="parallax">
+    <div class="parallax" id="topic4">
       <div class="text">
         <h1>Topic 4</h1>
         <p>Body paragraph of topic 4</p>
