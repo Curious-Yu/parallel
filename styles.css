@@ -25,6 +25,14 @@ body, html {
   position: relative;
 }
 
+.logo {
+
+  position: fixed;
+  display: inline-block;
+  top: 0;
+
+}
+
 .title {
   text-align: center;
   align-items: center;
