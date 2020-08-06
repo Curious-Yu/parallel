@@ -26,11 +26,13 @@ body, html {
 }
 
 .logo {
-
   position: fixed;
   display: inline-block;
   top: 0;
+}
 
+.logo-icon {
+  height: 100px;
 }
 
 .title {
